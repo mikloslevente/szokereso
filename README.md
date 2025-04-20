@@ -1,6 +1,7 @@
 HUNGARIAN:
 
-Egy szókereső alkalmazás, amelyben 10 élete van a játékosnak, azon belül 10 szót írhat be.
+Egy szókereső alkalmazás JavaFX-et és IntelliJ-t használva,
+amelyben 10 élete van a játékosnak, azon belül 10 szót írhat be.
 Meg tudja tekinteni a korábbi eredményeit, illetve a jelenlegit is.
 Az adott játék közben a program folyamatosan jelzi, hogy mennyi szót találtunk meg,
 hány pontunk van (a szavak hossza = pontszám),
@@ -8,8 +9,9 @@ hány életünk maradt még.
 A játék elején a felhasználó meg tud adni saját nevet. 
 Ha elfogytak az életek akkor vége játéknak és az alkalmazás jelez.
 
-ENGLISH
+ENGLISH:
 
+This is a word search application developed using JavaFX and IntelliJ IDEA.
 A word search application where the player has 10 lives and can enter up to 10 words.
 The player can view both their current and previous results.
 During the game, the program continuously shows how many words have been found,
