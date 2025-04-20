@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="362.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ml_d9zm3p_java.StartWindowController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7af0d8" height="410.0" width="645.0" />
+      <Button fx:id="btn_Start" layoutX="294.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn_Start_Click" text="Start">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#030303" layoutX="247.0" layoutY="191.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="5*5-ös szókereső négyzet" wrappingWidth="151.13671875">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#030303" layoutX="153.0" layoutY="217.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="2 karakter hosszú szavak nincsenek engedélyezve" textAlignment="CENTER" wrappingWidth="339.13671875">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#030303" layoutX="153.0" layoutY="243.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="10 lehetőség van, a cél minél több pont elérése, amilyen hosszú a szó, annyi pontot ér, és max 9x lehet újraindítani" textAlignment="CENTER" wrappingWidth="339.13671875">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
